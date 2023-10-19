@@ -1,10 +1,22 @@
 import Image from 'next/image';
+
 export default function General() {
+  const currentHour = new Date().getHours();
+  let greeting = '';
+
+  if (currentHour >= 6 && currentHour < 12) {
+    greeting = 'Good morning, early bird!';
+  } else if (currentHour >= 12 && currentHour < 18) {
+    greeting = 'Good afternoon, friend!';
+  } else {
+    greeting = 'Good evening, night owl!';
+  }
+
   return (
     <div className='bg-black text-white px-16 pb-32 -mb-12 border-t-2 border-double shadow-2xl shadow-white -rotate-3 justify-center -mx-16'>
       <div className='flex flex-col md:flex-row w-full rotate-3'>
         <div className='md:w-1/2 w-full pt-20 pl-16'>
-          <div className='text-3xl text-left'>Greeting here</div>
+          <div className='text-3xl text-left'>{greeting}</div>
           <div className=' text-left pt-6'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
             tellus ac turpis tempor vestibulum. Ut ullamcorper elementum
