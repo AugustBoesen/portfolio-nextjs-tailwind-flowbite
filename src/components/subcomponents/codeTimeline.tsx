@@ -32,7 +32,9 @@ export default function codeTimeline() {
               I started studying at JAMK, learning JS/TS, HTML and CSS during
               the first year.
             </div>
-            <div>Studies focused on frontend, design and functionality.</div>
+            <div>
+              Studies focused on frontend, design and basic functionality.
+            </div>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
@@ -46,7 +48,7 @@ export default function codeTimeline() {
           <Timeline.Body className='text-slate-900'>
             <div>
               During the 2nd year, I focused on learning frameworks, design and
-              utilization of cloud services.
+              cloud utilization.
             </div>
             <div>Studies also included fundamentals of backend.</div>
           </Timeline.Body>
