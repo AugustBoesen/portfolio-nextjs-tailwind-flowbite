@@ -4,17 +4,9 @@ import type { CustomFlowbiteTheme } from 'flowbite-react';
 import { Navbar } from 'flowbite-react';
 import Image from 'next/image';
 
-const customTheme: CustomFlowbiteTheme = {
-  button: {
-    color: {
-      primary: 'bg-red-500 hover:bg-red-600',
-    },
-  },
-};
-
 export default function Header() {
   return (
-    <Navbar fluid className='bg-cyan-500 fixed z-50 w-full'>
+    <Navbar fluid className='fixed z-50 w-full border-b-2'>
       <Navbar.Brand href='/#hero'>
         <Image
           alt='Flowbite React Logo'
@@ -29,9 +21,22 @@ export default function Header() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href='/#music'>Music</Navbar.Link>
-        <Navbar.Link href='/#events'>Events</Navbar.Link>
-        <Navbar.Link href='/#code'>Code</Navbar.Link>
+        <div className='w-12 hover:bg-slate-700 rounded-3xl transition-full duration-300'>
+          <div className=' backdrop-blur-sm rounded'>
+            <Navbar.Link href='/#music'>Music</Navbar.Link>
+          </div>
+        </div>
+
+        <div className='w-12 hover:bg-slate-700 rounded-3xl transition-full duration-300'>
+          <div className=' backdrop-blur-sm rounded'>
+            <Navbar.Link href='/#events'>Events</Navbar.Link>
+          </div>
+        </div>
+        <div className='w-12 hover:bg-slate-700 rounded-3xl transition-full duration-300'>
+          <div className=' backdrop-blur-sm rounded'>
+            <Navbar.Link href='/#code'>Code</Navbar.Link>
+          </div>
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );

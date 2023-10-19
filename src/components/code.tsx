@@ -1,7 +1,7 @@
 import CodeTimeline from './subcomponents/codeTimeline';
 export default function Code() {
   return (
-    <div className='bg-slate-600 text-white relative py-16 px-16 flex flex-col md:flex-row justify-between shadow-2xl shadow-white min-h-[50em]'>
+    <div className='bg-slate-700 text-white relative z-30 py-16 px-16 flex flex-col md:flex-row justify-between shadow-2xl shadow-white min-h-[50em]'>
       <div className='md:max-w-[50%]'>
         <div className='text-left text-7xl border-l-2 border-t-2 rounded'>
           CODE
