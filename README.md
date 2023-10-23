@@ -1,6 +1,7 @@
 # Severi Boesen - A portfolio website
 
 This is a portfolio website created with NextJS, Tailwind CSS and Flowbite React.
+It is a single-page website with several components, so read the instructions before diving in.
 
 ## Installation
 1. Pull main branch
@@ -21,3 +22,6 @@ SRC contains all major content, excluding pictures.
  - **general** contains a general person overview
  - **footer** contains footer information
  - **header** contain header information
+
+## TODO
+- Flowbite React CSS missä miten miksi how work
