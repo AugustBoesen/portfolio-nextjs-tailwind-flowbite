@@ -1,12 +1,14 @@
 'use client';
 
-import type { CustomFlowbiteTheme } from 'flowbite-react';
 import { Navbar } from 'flowbite-react';
 import Image from 'next/image';
 
 export default function Header() {
   return (
-    <Navbar fluid className='fixed z-50 w-full border-b-2'>
+    <Navbar
+      fluid
+      className='fixed z-50 w-full border-b-2 !border-slate-900 !bg-slate-950'
+    >
       <Navbar.Brand href='/#hero'>
         <Image
           alt='Flowbite React Logo'

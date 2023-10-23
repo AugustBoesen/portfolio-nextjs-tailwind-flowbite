@@ -5,11 +5,12 @@
 html {
   scroll-behavior: smooth;
 }
+
 /*--------------star animation--------------------*/
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1a2a3c 0%, #090f0e 100%);
+  background: radial-gradient(ellipse at bottom, #19212a 0%, #090f0e 100%);
 }
 
 #title {

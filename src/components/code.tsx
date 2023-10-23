@@ -9,9 +9,15 @@ export default function Code() {
         <div className='text-left pt-6'>
           My strengths currently lie in frontend design and implementation. I am
           currently using Javascript/TypeScript on all my projects. Regarding
-          frameworks, I have experience using React, NextJS, Angular, Svelte,
-          Tailwind CSS and Bootstrap. I also know how to use component libraries
-          such as Flowbite to my advantage.{' '}
+          frameworks, I have experience using, but not limited to{' '}
+          <b className='text-indigo-200'>React</b>,{' '}
+          <b className='text-teal-200'>NextJS</b>,{' '}
+          <b className='text-red-200'>Angular</b>,{' '}
+          <b className='text-orange-200'>Svelte</b>,{' '}
+          <b className='text-purple-200'>Tailwind CSS</b>, and{' '}
+          <b className='text-cyan-200'>Bootstrap</b>. I also know how to use
+          component libraries such as{' '}
+          <b className=' text-emerald-200'>Flowbite</b> to my advantage.{' '}
         </div>
         <div className='text-left pt-6'>
           I like learning new things regarding coding, especially ways to

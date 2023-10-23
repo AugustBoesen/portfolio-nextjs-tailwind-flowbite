@@ -24,9 +24,9 @@ export default function General() {
             roots and heart lies in culture and performing arts with a
             background in street dance arts. Alongside dancing, I have a degree
             in music with a specialization in studio production. Furthermore, my
-            freetime includes a variety of nerdy stuff, including organizing
-            LARP (Live Action RolePlay) events and boffering (padded melee
-            weapons combat).
+            freetime includes a variety of nerdy stuff, including organizing{' '}
+            <b>LARP</b> <i>(Live Action RolePlay)</i> events and boffering
+            (padded melee weapons combat).
           </div>
           <div className=' text-left pt-6'>
             This portfolio website is divided into categories depending on what
