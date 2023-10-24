@@ -13,6 +13,8 @@ SRC contains all major content, excluding pictures.
 - **app** folder contains main page info, including layout and metadata.
 - **components** folder contains each component, with a subfolder named *subcomponents* that contains subcomponents
 
+Public contains image files used.
+
 ### Components
  Each section has its own component. Website header and footer have their own respective components as well.
  - **code** contains my coding experience overview with a timeline subcomponent
@@ -23,5 +25,8 @@ SRC contains all major content, excluding pictures.
  - **footer** contains footer information
  - **header** contain header information
 
-## TODO
-- Flowbite React CSS missä miten miksi how work
+ #### Subcomponents
+ There are 3 subcomponents, one for each subsection of my skillset. Each one contains a Flowbite React component utilized for showcasing different features.
+ - **codeTimeline**  contains a timeline component
+ - **eventsCarousel** contains a carousel component
+ - **musicCards** contains a Card component collective

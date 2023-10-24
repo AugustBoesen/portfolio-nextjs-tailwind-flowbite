@@ -2,7 +2,10 @@
 import Image from 'next/image';
 
 export default function General() {
-  const currentHour = new Date().getHours();
+  const currentTime = new Date();
+  const currentHour = parseInt(
+    currentTime.toLocaleTimeString([], { hour: 'numeric', hour12: false })
+  );
   let greeting = '';
 
   if (currentHour >= 6 && currentHour < 12) {
