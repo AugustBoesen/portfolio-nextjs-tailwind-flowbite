@@ -2,7 +2,7 @@
 import MusicCards from './subcomponents/musicCards';
 export default function Music() {
   return (
-    <div className='bg-slate-900 text-white relative py-16 px-16 flex flex-col md:flex-row justify-between shadow-2xl shadow-white min-h-[50em]'>
+    <div className=' bg-gradient-to-b from-slate-950 to-slate-900 text-white relative py-16 md:px-16 px-8 flex flex-col md:flex-row justify-between shadow-2xl min-h-[50em]'>
       <div className='md:max-w-[50%]'>
         <div className='text-left text-7xl border-l-2 border-t-2 rounded'>
           Music

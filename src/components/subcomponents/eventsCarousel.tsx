@@ -7,30 +7,42 @@ export default function DefaultCarousel() {
   const carouselItems = [
     {
       alt: '[ 111111 ]',
-      src: '',
+      src: '/blushposter.png',
       title: 'BLUSH2023',
       subtitle: 'Project Coordinator',
     },
     {
       alt: '[ 222222 ]',
-      src: '',
+      src: '/sotahuuto.png',
       title: 'Sotahuuto 2024',
       subtitle: 'Webmaster',
     },
     {
       alt: '[ 333333 ]',
-      src: '',
+      src: '/sarobandcamp.jpg',
       title: 'SÄRÖ Bandcamp',
       subtitle: 'Producer',
+    },
+    {
+      alt: '',
+      src: '/GK.png',
+      title: 'Green Knights Campaign',
+      subtitle: 'Lead event organizer',
     },
   ];
 
   return (
-    <Carousel className=' bg-blue-400 rounded-3xl overflow-hidden'>
+    <Carousel className=' bg-white rounded-3xl overflow-hidden'>
       {carouselItems.map((item) => (
         <div key={item.title}>
-          <Image alt={item.title} src={item.src} className='w-full h-auto' />
-          <div className='bg-black bg-opacity-60 py-4 pb-20 mt-72'>
+          <Image
+            width={5000}
+            height={5000}
+            alt={item.title}
+            src={item.src}
+            className=' max-w-[100%] overflow-clip absolute -z-50'
+          />
+          <div className='bg-black bg-opacity-70 py-4 pb-20 mt-72'>
             <h2 className='text-2xl md:text-4xl'>{item.title}</h2>
             <p>{item.subtitle}</p>
           </div>

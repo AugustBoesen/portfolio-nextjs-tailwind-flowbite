@@ -50,7 +50,9 @@ export default function codeTimeline() {
               During the 2nd year, I focused on learning frameworks, design and
               cloud utilization.
             </div>
-            <div>Studies also included fundamentals of backend.</div>
+            <div>
+              Studies also included fundamentals of backend & databases.
+            </div>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>

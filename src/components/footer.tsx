@@ -10,7 +10,7 @@ export default function DefaultFooter() {
       container
       className='bg-black rounded-none shadow-inner shadow-slate-700'
     >
-      <Footer.Copyright by='Severi Boesen' href='#' year={currentYear} />
+      <Footer.Copyright by='Severi Boesen' year={currentYear} />
       <Footer.LinkGroup>
         <SocialIcon
           className='m-4 hover:bg-white rounded-full'

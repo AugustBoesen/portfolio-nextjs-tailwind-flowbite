@@ -13,26 +13,6 @@ html {
   background: radial-gradient(ellipse at bottom, #19212a 0%, #090f0e 100%);
 }
 
-#title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  color: #fff;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin-top: -60px;
-  padding-left: 10px;
-}
-
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-text-fill-color: transparent;
-}
-
 #stars {
   width: 1px;
   height: 1px;

@@ -14,25 +14,25 @@ export default function General() {
   }
 
   return (
-    <div className='bg-black text-white px-16 pb-32 -mb-12 border-t-2 border shadow-2xl shadow-white -rotate-3 justify-center -mx-16'>
+    <div className=' bg-gradient-to-b from-black to-slate-950 text-white px-16 pb-32 -mb-12 border-t-2 border shadow-2xl shadow-white -rotate-3 justify-center -mx-16'>
       <div className='flex flex-col md:flex-row w-full rotate-3'>
-        <div className='md:w-1/2 w-full pt-20 pl-16'>
+        <div className='md:w-1/2 w-full pt-20 md:px-16 px-8'>
           <div className='text-3xl text-left'>{greeting}</div>
           <div className=' text-left pt-6'>
             My name is Severi. I'm a sinewy savonian fellow with a danish sense
-            of humour and a desire to learn, create and implement new things. My
-            roots and heart lies in culture and performing arts with a
-            background in street dance arts. Alongside dancing, I have a degree
-            in music with a specialization in studio production. Furthermore, my
-            freetime includes a variety of nerdy stuff, including organizing{' '}
-            <b>LARP</b> <i>(Live Action RolePlay)</i> events and boffering
-            (padded melee weapons combat).
+            of humour and a desire to learn, create and implement. My roots and
+            heart lies in the culture scene and performing arts with a an
+            advanced degree in street dance arts. Alongside dancing, I have a
+            degree in music with a specialization in studio production.
+            Furthermore, my freetime includes a variety of nerdy stuff,
+            including organizing <b>LARP</b> <i>(Live Action RolePlay)</i>{' '}
+            events and boffering <i>(padded melee weapons combat)</i>.
           </div>
           <div className=' text-left pt-6'>
             This portfolio website is divided into categories depending on what
-            you might be looking for, were it music, event or code production.
-            Feel free to take a look around and shoot a message if my skillset
-            piques your interest!
+            you might be looking for, were it music production, event
+            organization or code development. Feel free to take a look around
+            and shoot a message if my skillset piques your interest!
           </div>
         </div>
 
