@@ -10,7 +10,9 @@ export default function Music() {
         <div className='text-left pt-6'>
           I've played piano since 2015 with drums as a secondary instrument.
           I've also gotten classes for tenor saxophone, violin and acoustic
-          guitar.
+          guitar. Furthermore, I'm also a self-taught singer and know how to
+          give advice regarding each of these in a studio environment as a
+          producer.
         </div>
         <div className='text-left pt-6'>
           I've done music production since 2012 with an extensive portfolio of a

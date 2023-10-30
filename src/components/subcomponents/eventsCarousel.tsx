@@ -27,12 +27,12 @@ export default function DefaultCarousel() {
       alt: '',
       src: '/GK.png',
       title: 'Green Knights Campaign',
-      subtitle: 'Lead event organizer',
+      subtitle: 'Organizer, Sound designer, writer',
     },
   ];
 
   return (
-    <Carousel className=' bg-black rounded-3xl overflow-hidden'>
+    <Carousel className=' bg-black rounded-3xl overflow-hidden border-2 border-slate-500'>
       {carouselItems.map((item) => (
         <div key={item.title}>
           <Image

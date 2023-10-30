@@ -15,17 +15,17 @@ export default function Events() {
           events in different circumstances, usually regarding either my field
           of interests or work in general. In terms of participant sizes, I have
           worked on:
-          <ul className='pl-16 py-2'>
+          <dl className='pl-16 py-2'>
             <li className='py-2'>
-              <b>50+ events for 5-40 participants</b>
+              <b> 50+ events for 5-40 participants</b>
             </li>
             <li className='py-2'>
-              <b>10+ events for 40-80 participants</b>
+              <b> 10+ events for 40-80 participants</b>
             </li>
             <li className='py-2'>
-              <b>5+ events with 80+ participants</b>
+              <b> 5+ events with 80+ participants</b>
             </li>
-          </ul>{' '}
+          </dl>{' '}
           These events vary from weekend camps to week-long bandcamps, festivals
           to conventions, concerts to LARPs and more.
         </div>

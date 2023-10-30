@@ -32,7 +32,7 @@ export default function DefaultCard() {
       {cards.map((card) => (
         <Card
           key={card.title}
-          className='max-w-sm m-4 transition-all duration-200 hover:bg-slate-400 hover:border-slate-900'
+          className='max-w-sm m-4 transition-all duration-200 hover:bg-slate-400 hover:border-slate-50 hover:shadow-inner shadow-2xl'
           href={card.url}
         >
           <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>

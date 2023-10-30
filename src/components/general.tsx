@@ -37,6 +37,20 @@ export default function General() {
             organization or code development. Feel free to take a look around
             and shoot a message if my skillset piques your interest!
           </div>
+          <div className='text-left py-16 text-lg'>
+            <div className='mb-6'>
+              Email:{' '}
+              <span className='text-rose-700 hover:text-rose-500 transition-all duration-500'>
+                augustboesen@gmail.com
+              </span>
+            </div>
+            <div>
+              Discord:{' '}
+              <span className=' text-sky-700 hover:text-sky-500 transition-all duration-500'>
+                sevu_
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className='md:w-1/3 w-full flex flex-col justify-end md:ml-32 ml-0'>
