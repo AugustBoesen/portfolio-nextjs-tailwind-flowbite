@@ -9,13 +9,13 @@ export default function DefaultCarousel() {
       alt: '[ 111111 ]',
       src: '/blushposter.png',
       title: 'BLUSH2023',
-      subtitle: 'Project Coordinator',
+      subtitle: 'Project Coordinator + Webmaster',
     },
     {
       alt: '[ 222222 ]',
       src: '/sotahuuto.png',
       title: 'Sotahuuto 2024',
-      subtitle: 'Webmaster',
+      subtitle: 'Communications coordinator + Webmaster',
     },
     {
       alt: '[ 333333 ]',
@@ -32,7 +32,7 @@ export default function DefaultCarousel() {
   ];
 
   return (
-    <Carousel className=' bg-white rounded-3xl overflow-hidden'>
+    <Carousel className=' bg-black rounded-3xl overflow-hidden'>
       {carouselItems.map((item) => (
         <div key={item.title}>
           <Image
@@ -40,7 +40,7 @@ export default function DefaultCarousel() {
             height={5000}
             alt={item.title}
             src={item.src}
-            className=' max-w-[100%] overflow-clip absolute -z-50'
+            className=' max-w-[100%] min-h-[100%] overflow-clip absolute -z-50'
           />
           <div className='bg-black bg-opacity-70 py-4 pb-20 mt-72'>
             <h2 className='text-2xl md:text-4xl'>{item.title}</h2>

@@ -8,8 +8,9 @@ export default function Code() {
         </div>
         <div className='text-left pt-6'>
           My strengths currently lie in frontend design and implementation. I am
-          currently using Javascript/TypeScript on all my projects. Regarding
-          frameworks, I have experience using, but not limited to{' '}
+          currently using <span className='text-yellow-300'>Javascript</span>/
+          <span className='text-blue-300'>TypeScript</span> on all my projects.
+          Regarding frameworks, I have experience using, but not limited to{' '}
           <b className='text-indigo-200'>React</b>,{' '}
           <b className='text-teal-200'>NextJS</b>,{' '}
           <b className='text-red-200'>Angular</b>,{' '}

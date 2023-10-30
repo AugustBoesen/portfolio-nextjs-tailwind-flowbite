@@ -17,7 +17,7 @@ export default function General() {
   }
 
   return (
-    <div className=' bg-gradient-to-b from-black to-slate-950 text-white px-16 pb-32 -mb-12 border-t-2 border shadow-2xl shadow-white -rotate-3 justify-center -mx-16'>
+    <div className='bg-gradient-to-b from-black to-slate-950 text-white px-16 pb-32 -mb-12 border-t-2 border shadow-2xl shadow-white -rotate-3 justify-center -mx-16'>
       <div className='flex flex-col md:flex-row w-full rotate-3'>
         <div className='md:w-1/2 w-full pt-20 md:px-16 px-8'>
           <div className='text-3xl text-left'>{greeting}</div>

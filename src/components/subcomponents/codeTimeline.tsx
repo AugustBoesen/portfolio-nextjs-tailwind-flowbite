@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 export default function codeTimeline() {
   return (
-    <Timeline className='ml-8 bg-slate-900 py-16 pr-8 rounded-tr-2xl rounded-br-2xl bg-opacity-50'>
+    <Timeline className='ml-8 text-white bg-slate-900 py-16 pr-8 rounded-tr-2xl rounded-br-2xl bg-opacity-50'>
       <Timeline.Item className='border-y-2 py-2'>
         <Timeline.Point />
         <Timeline.Content>
