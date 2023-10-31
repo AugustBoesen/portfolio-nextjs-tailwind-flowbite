@@ -31,8 +31,16 @@ export default function Code() {
           This particular site is made with NextJS using Flowbite React for
           components and Tailwind CSS for styling.{' '}
         </div>
+        <div className='text-left pt-8'>
+          <a
+            href='https://github.com/AugustBoesen/portfolio-nextjs-tailwind-flowbite'
+            className=' text-lg text-blue-300 hover:text-slate-500 transition-all duration-200'
+          >
+            GitHub Repository
+          </a>
+        </div>
       </div>
-      <div className=''>
+      <div>
         <CodeTimeline />
       </div>
     </div>

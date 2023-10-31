@@ -1,5 +1,7 @@
 # Severi Boesen - A portfolio website
 
+Currently deployed at: https://boesen.netlify.app/
+
 This is a portfolio website created with NextJS, Tailwind CSS and Flowbite React.
 It is a single-page website with several components, so read the instructions before diving in.
 
